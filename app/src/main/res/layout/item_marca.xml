@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvRut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RUT: "
+        android:textSize="16sp"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/tvFechaHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha/Hora: "
+        android:textSize="14sp"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/tvTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo: "
+        android:textSize="14sp"
+        android:padding="4dp" />
+</LinearLayout>
